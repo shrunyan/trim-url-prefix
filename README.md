@@ -3,8 +3,22 @@ Express middleware to trim a path prefix from the request url.
 
 This module is useful for trimming verbose urls paths from an api gateway.
 
-_Example usage:_
+## Usage
+
+```js
+var express = require('express')
+var trimUrlPrefix = require('trim-url-prefix')
+var app = express()
+
+app.use(trimUrlPrefix('/api/v1')
+
+// Will now receive /api/v1/user/abc/edit OR /user/abc/edit
+app.get('/user/abc/edit', user)
 ```
+
+## Extended Proof-of-Concept
+
+```js
 var express = require('express')
 var trimUrlPrefix = require('trim-url-prefix')
 var app = express()
