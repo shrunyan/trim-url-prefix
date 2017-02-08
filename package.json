@@ -4,7 +4,7 @@
   "description": "Express middleware to trim a path prefix from the request url.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/ava test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zesty-io/trim-url-prefix/issues"
   },
-  "homepage": "https://github.com/zesty-io/trim-url-prefix#readme"
+  "homepage": "https://github.com/zesty-io/trim-url-prefix#readme",
+  "devDependencies": {
+    "ava": "^0.18.1"
+  }
 }
