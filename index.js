@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = function trimUrlPrefix(prefix = '') {
+module.exports = function trimUrlPrefix(prefix = '', cb = () => {}) {
   if (!prefix.length) {
     throw new TypeError('trimUrlPrefix prefix must be a string')
   }
