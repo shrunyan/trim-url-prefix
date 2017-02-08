@@ -2,7 +2,7 @@
 
 module.exports = function trimUrlPrefix(prefix, cb) {
   prefix = String(prefix)
-  if (prefix) {
+  if (!prefix) {
     throw new TypeError('trimUrlPrefix prefix must be a string')
   }
   return (req, res, next) => {
