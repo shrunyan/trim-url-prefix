@@ -1,0 +1,19 @@
+{
+  "name": "trim-url-prefix",
+  "version": "1.0.0",
+  "description": "Express middleware to trim a path prefix from the request url.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zesty-io/trim-url-prefix.git"
+  },
+  "author": "Stuart Runyan<stuart@zesty.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zesty-io/trim-url-prefix/issues"
+  },
+  "homepage": "https://github.com/zesty-io/trim-url-prefix#readme"
+}
