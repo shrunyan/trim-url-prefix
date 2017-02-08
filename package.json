@@ -1,6 +1,6 @@
 {
   "name": "trim-url-prefix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware to trim a path prefix from the request url.",
   "main": "index.js",
   "scripts": {
